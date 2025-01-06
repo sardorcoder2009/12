@@ -1,0 +1,118 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+
+  .OQ {
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+  }
+
+  #icon {
+    font-size: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+
+  .lang-button {
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .welcome {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+
+  .extra {
+    font-size: 16px;
+    color: gray;
+    margin-top: 10px;
+  }
+  
+  .images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .image-container img {
+    width: 500px;
+    height: auto;
+  }
+  
+
+  #features, #tagline {
+    font-size: 22px;
+    margin-top: 40px;
+  }
+
+  .ctrl img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .OQ {
+      font-size: 40px;
+    }
+    .icon {
+      font-size: 25px;
+      background-color: white;
+    }
+    .images {
+      flex-direction: column;
+      align-items: center;
+    }
+    .image-container img {
+      width: 100%;
+      max-width: 400px;
+    }
+    .ctrl img {
+      width: 100%;
+      max-width: 300px;
+    }
+    .features, #tagline {
+      font-size: 18px;
+    }
+    .lang-button {
+      font-size: 18px;
+    }
+  }
+  
+
+  @media (max-width: 480px) {
+    .OQ {
+      font-size: 30px;
+    }
+    .lang-button {
+      font-size: 16px;
+    }
+    .images {
+      gap: 10px;
+    }
+    .image-container img {
+      width: 100%;
+      max-width: 300px;
+    }
+    .ctrl img {
+      width: 100%;
+      max-width: 250px;
+    }
+    #features, #tagline {
+      font-size: 16px;
+    }
+  }
+  
